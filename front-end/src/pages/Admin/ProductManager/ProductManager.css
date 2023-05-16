@@ -1,0 +1,39 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+.mainDivManageProduct {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 70px;
+}
+
+.divBtnsManageProduct {
+  align-items: center;
+  background-color: var(--alice-blue);
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px;
+  position: fixed;
+  top: 80px;
+}
+
+.btnManageProduct {
+  width: 200px;
+}

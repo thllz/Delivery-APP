@@ -1,0 +1,49 @@
+.mainDivHeader {
+  align-items: center;
+  background: #ee4d2dff;
+  display: flex;
+  height: 65px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.btnHeader {
+  color: #eff7ffff ! important;
+  font-size: 1rem ! important;
+  font-weight: bold ! important;
+  margin-left: 50px ! important;
+}
+
+.btnHeader:hover {
+  background-color: orange ! important;
+  color: #353238ff ! important;
+}
+
+.userNameText {
+  color: #eff7ffff !important;
+  font-weight: bold !important;
+  margin-right: 24px !important;
+}
+
+.btnLogout {
+  background-color: #ee4d2dff ! important;
+  border: 1px solid ! important;
+  border-radius: 2px;
+  color: #eff7ffff ! important;
+  font-size: 1rem ! important;
+  font-weight: bold ! important;
+  margin-right: 24px ! important;
+}
+
+.btnLogout:hover {
+  background-color: red ! important;
+  border: 1px solid ! important;
+}
+
+.divBtnsAdminHeader {
+  display: flex;
+  
+}

@@ -1,0 +1,27 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+.body {
+  background-color: none;
+}
+
+.mainDivOrders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}

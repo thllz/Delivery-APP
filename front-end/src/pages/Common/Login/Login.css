@@ -1,0 +1,86 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+body {
+  background-color: var(--jet) !important;
+}
+
+.mainDivLogin {
+  align-items: center;
+  animation: slideLtoR 1s normal forwards;
+  background-color: var(--alice-blueOpacity);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 40px;
+  width: 300px;
+}
+
+.backDiv {
+  align-items: center;
+  background-color: var(--alice-blue);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.divInputLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.divButtonsLogin {
+  display: flex;
+  gap: 20%;
+  padding: 10px;
+}
+
+.btns {
+  width: 120px;
+}
+
+.logoH {
+  margin-top: -100px;
+  width: 100%;
+}
+
+.animate__animated {
+  font-family: Josefin Sans , sans-serif;
+  font-size: 25px;
+  margin: auto;
+  margin-top: -10px;
+}
+
+@keyframes slideLtoR {
+
+  0% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateY(-3px);
+  }
+}

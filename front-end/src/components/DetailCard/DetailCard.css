@@ -1,0 +1,57 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+  --ghost-whiteDark: rgb(189, 190, 197);
+
+}
+
+.divMainDetailCard {
+  background-color: none;
+  display: flex;
+  width: 100%;
+}
+
+.divTable {
+  background-color: var(--ghost-white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.tableBody {
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+}
+
+.cellIndex {
+  display: flex;
+  left: 0;
+}
+
+.cellDesc {
+  left: 0;
+  width: 100px;
+}
+
+.cellPriceUnit {
+  background-color: none;
+}
+
+.cellSubTotalPrice {
+  background-color: none;
+}

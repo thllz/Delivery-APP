@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+}
+
+.cartButton {
+  background-color: #ee4d2dff !important;
+  border: 1px solid !important;
+  color: #eff7ffff !important;
+  font-size: 1rem !important;
+  padding: 15px !important;
+  width: auto !important;
+
+}
+
+.cartButton:hover {
+  background-color: orange !important;
+  border: 1px solid !important;
+  color: black !important;
+}

@@ -1,0 +1,68 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+  --ghost-whiteDark: rgb(189, 190, 197);
+
+}
+
+.divMainSellerId {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.divMainInfo {
+  align-items: center;
+  background-color: var(--alice-blue);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+}
+
+.sellerIdText {
+  align-items: center;
+  background-color: var(--ghost-whiteDark);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  width: 80%;
+}
+
+.divBtnsSellerId {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+  width: 54%;
+}
+
+.divMainInfoSellerId {
+  align-items: center;
+  background-color: var(--ghost-white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 50%;
+}

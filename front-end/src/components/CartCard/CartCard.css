@@ -1,0 +1,42 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+.divTr {
+  align-items: center;
+  background-color: var(--ghost-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+  max-height: 70px;
+  width: 100%;
+}
+
+.gridCartElement {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.remove-card {
+  background-color: transparent;
+  color: var(--cinnabar);
+}
+
+.remove-card:hover {
+  background-color: transparent;
+  color: red;
+}

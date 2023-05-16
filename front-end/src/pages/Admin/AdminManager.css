@@ -1,0 +1,75 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+body {
+  background-color: var(--jet) ! important;
+}
+
+.divMainAdmin {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+
+.mainDivRegisterAdmin {
+  align-items: center;
+  background-color: var(--alice-blueOpacity);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: max-content ! important;
+  padding: 20px;
+  width: 300px;
+}
+
+.textMain {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.313);
+  display: flex;
+  font-family: Josefin Sans , sans-serif;
+  justify-content: center;
+  margin-top: -1px;
+  padding: 10px;
+}
+
+.selectTypeAdmin {
+  width: 75%;
+}
+
+.divListUserAdmin {
+  background-color: var(--alice-blueOpacity);
+  border-radius: 10px;
+  height: 100%;
+  max-width: 600px;
+  padding: 10px;
+  width: 600px;
+}
+
+.divListAdminScroll {
+  background-color: var(--alice-blue);
+  border-radius: 10px;
+  height: 460px;
+  overflow: scroll;
+  overflow-x: hidden;
+}

@@ -1,0 +1,51 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+.cardOrders {
+  align-items: center;
+  background-color: var(--ghost-white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+.cardOrders:hover {
+  background-color: var(--alice-blue);
+}
+
+.cardOrders p {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.cardOrders label {
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  font-weight: 800;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}

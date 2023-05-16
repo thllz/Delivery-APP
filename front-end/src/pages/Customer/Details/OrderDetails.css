@@ -1,0 +1,68 @@
+:root {
+
+  --cinnabar: #ee4d2dff;
+
+  --jet: #353238ff;
+
+  --jonquil: #f0c808ff;
+
+  --alice-blue: #eff7ffff;
+
+  --alice-blueOpacity: rgba(239, 247, 255, 0.946);
+
+  --ghost-white: #e8e9f3ff;
+
+}
+
+.mainDivDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.divDetailsOrder {
+  align-items: center;
+  background-color: var(--alice-blue);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  padding: 10px;
+  position: relative;
+  width: 75%;
+}
+
+.detailsText {
+  background-color: var(--alice-blue);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.infoDetails {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 80%;
+}
+
+.orderHeader {
+  align-items: center;
+  background-color: var(--ghost-white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+.btnDelivered {
+  margin-bottom: 10px ! important;
+  margin-top: 10px ! important;
+}
+
